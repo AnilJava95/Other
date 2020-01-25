@@ -1,0 +1,8 @@
+You can do it with different approaches that are more or less brute force(especially for high input 
+amounts). So it is better to come up with equations that find sum of numbers like 3 + 6 + 9 ... 999. 
+You can use the equation sum of numbers from 1 to n is (n(n+1)) / 2. and you can write the numbers like
+3( 1 + 2 + 3 ... 333) etc. so 3 . ((333 . 334) / 2)
+
+
+Summary: Instead of implementing the first thing that came up to your brain, you can try to come up with
+ better solutions that are better.(not brute force. which means faster with high amounts of input.)

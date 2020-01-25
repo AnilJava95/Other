@@ -1,0 +1,3 @@
+-I learned a lot of optimization things about finding palindromes among multiple numbers but 
+ the biggest thing was just reversing and comparing the number instead of working with characters 
+ one by one.

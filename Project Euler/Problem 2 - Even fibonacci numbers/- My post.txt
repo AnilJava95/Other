@@ -1,0 +1,35 @@
+I tried to find out a smart way of doing it but all i could find out was 2 is even, after 2 every 2
+ number is odd and the number after these 2 odd numbers is even(even odd odd even odd odd even odd
+ odd ...). I tried to calculate these even numbers using a (xa + yb) system. 1 = a, 2 = b, 3 = a+b,
+ 5 = 1+2b etc. And i wanted to find a correlation between coefficients of a's and b's of even
+ numbers but i don't think there is one. Also it turned out using this route was going to be the
+ same thing as just calculating the normal series. But i gotta say even finding huge even fibonacci
+ numbers just take few iterations so i guess its ok to brute force. So here it is:
+
+Brute force C
+C/C++
+Hide Code
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int fibonacci0 = 1;
+	int fibonacci1 = 2;
+	int sum = 0;
+	
+	while( fibonacci1 < 4000000)
+	{
+		if(fibonacci1 % 2 == 0)
+		{
+			sum += fibonacci1;
+			printf("even number: %d   sum: %d\n", fibonacci1, sum);
+		}
+		
+		fibonacci1 += fibonacci0;
+		fibonacci0 = fibonacci1 - fibonacci0;
+	}
+	
+	getchar();
+	return 0;
+}

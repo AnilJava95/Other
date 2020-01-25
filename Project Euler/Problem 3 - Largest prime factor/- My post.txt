@@ -1,0 +1,37 @@
+First i created a brute force c algorithm and saved the prime factors in an array. But it was extremely
+ slow. Once i got the arrays out of my code and just printed the prime factors my code got MUCH 
+ faster(especially for big inputs)
+
+[code]
+#include <stdio.h>
+
+int main(void) {
+	
+	long long number, halfTheNumber, primeNumberCounter = 2;
+	
+	printf("Enter number to find its prime factors: ");
+	scanf("%llu", &number);
+	
+	halfTheNumber = number / 2;
+	for(; primeNumberCounter <= halfTheNumber; primeNumberCounter++)
+	{
+		while(number % primeNumberCounter == 0)
+		{
+			number /= primeNumberCounter;
+			printf("%llu ", primeNumberCounter);
+		}
+	}
+	
+	getchar();
+	return 0;
+}
+[/code]
+
+---
+
+[b]toni[/b] said
+[quote]One line in Mathematica:
+
+FactorInteger[317584931803][/quote]
+
+I would suggest you to open an algorithm design and analysis book and read the first sentence. The sentence that describes what an algorithm is.

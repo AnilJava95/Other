@@ -1,0 +1,77 @@
+--- decrease and conquer C (i haven't analyzed the algorithm. it might be slower than brute force)
+
+C/C++
+Hide Code
+
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int sumOfMultiplesOfThree = 0;
+	int sumOfMultiplesOfFive = 0;
+	int sumOfMultiplesOfFifteen = 0;
+	short forCounter = 3;
+	
+	// calculating sum of all multiples of 3 between the limits given
+	for( ; forCounter <= 999; forCounter+=3)
+	{
+		sumOfMultiplesOfThree += forCounter;
+	}
+	
+	printf("sum of multiples of three: %d\n", sumOfMultiplesOfThree);
+	forCounter = 5;
+	
+	// calculating sum of all multiples of 5 between the limits given
+	for( ; forCounter <= 995; forCounter+=5)
+	{
+		sumOfMultiplesOfFive += forCounter;
+	}
+	
+	printf("sum of multiples of five: %d\n", sumOfMultiplesOfFive);
+	forCounter = 15;
+	
+	// calculating sum of all multiples of 15 between the limits given
+	for( ; forCounter <= 990; forCounter+=15)
+	{
+		sumOfMultiplesOfFifteen += forCounter;
+	}
+	
+	printf("sum of multiples of fifteen: %d\n", sumOfMultiplesOfFifteen);
+	
+	printf("sum of multiples of three or five: %d", (sumOfMultiplesOfThree +
+	 sumOfMultiplesOfFive) - sumOfMultiplesOfFifteen);
+	
+	getchar();
+	return 0;
+}
+
+
+
+--- brute force C
+
+C/C++
+Hide Code
+
+
+#include <stdio.h>
+
+int main(void) {
+	
+	int sum = 0;
+	short forCounter = 3;
+	
+	// calculating sum of all multipes of 3 or 5 between limits
+	for( ; forCounter <= 999; forCounter++)
+	{
+		if(forCounter % 3 == 0 || forCounter % 5 == 0 )
+		{
+		      sum += forCounter;
+		}
+	}
+	
+	printf("sum of multiples of three or five: %d", sum);
+	
+	getchar();
+	return 0;
+}
