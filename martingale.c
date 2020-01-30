@@ -1,5 +1,5 @@
 /*
- * Author's name and email: Anil Erturk, anilerturk1@gmail.com
+ * Author's name and email: Michael
  * Program description: Implementation and research on martingale betting system.
  *  There are two possible outcomes. 1: We win (defaultBet * roundCount * 0.5) dollars.
  *  2: We lose all the money we brought to casino.
