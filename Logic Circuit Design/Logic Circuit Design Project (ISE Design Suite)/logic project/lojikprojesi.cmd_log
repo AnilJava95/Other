@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/VHDL Programs/Xilinx projects/lojikprojesi/lojikprojesi.xst" -ofn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/VHDL Programs/Xilinx projects/lojikprojesi/lojikprojesi.syr" 
+xst -intstyle ise -ifn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/VHDL Programs/Xilinx projects/lojikprojesi/lojikprojesi.xst" -ofn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/VHDL Programs/Xilinx projects/lojikprojesi/lojikprojesi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 "lojikprojesi.ngc" lojikprojesi.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o lojikprojesi_map.ncd lojikprojesi.ngd lojikprojesi.pcf 
+par -w -intstyle ise -ol high -t 1 lojikprojesi_map.ncd lojikprojesi.ncd lojikprojesi.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lojikprojesi.twx lojikprojesi.ncd -o lojikprojesi.twr lojikprojesi.pcf 

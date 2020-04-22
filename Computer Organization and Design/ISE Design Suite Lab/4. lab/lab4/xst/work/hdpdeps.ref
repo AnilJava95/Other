@@ -1,0 +1,14 @@
+V3 6
+FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/lab4.vhd" 2017/01/06.04:02:46 P.20131013
+EN work/tam 1484401750 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/lab4.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/tam/dataflow 1484401751 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/lab4.vhd" \
+      EN work/tam 1484401750
+EN work/nbitadder 1484401752 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/lab4.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/nbitadder/Structural 1484401753 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/lab4.vhd" \
+      EN work/nbitadder 1484401752 CP tam

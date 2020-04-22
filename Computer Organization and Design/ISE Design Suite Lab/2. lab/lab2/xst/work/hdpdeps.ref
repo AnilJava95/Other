@@ -1,0 +1,14 @@
+V3 6
+FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/2. lab/lab2/lab2.vhd" 2017/01/06.03:59:25 P.20131013
+EN work/mux2x1 1483664367 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/2. lab/lab2/lab2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2x1/Behavioral 1483664368 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/2. lab/lab2/lab2.vhd" \
+      EN work/mux2x1 1483664367
+EN work/mux4x1 1483664369 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/2. lab/lab2/lab2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux4x1/structural 1483664370 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/2. lab/lab2/lab2.vhd" \
+      EN work/mux4x1 1483664369 CP mux2x1

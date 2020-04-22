@@ -1,0 +1,1 @@
+10 dan 3 çýkarýnca 0110 yerine 0111 geliyor çünkü sadece çýkarma iþlemi yapmýyoruz. m 1 olduðu için 1 ekliyoruz.

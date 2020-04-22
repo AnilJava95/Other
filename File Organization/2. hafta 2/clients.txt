@@ -1,0 +1,5 @@
+100 Dilek 700.00
+23 Gaye -45.00
+47 Veli 0.00
+30 Koray 500.00
+200 Humeyra 600.00

@@ -1,0 +1,23 @@
+﻿Build started 6.2.2015 22:17:57.
+     1>Project "C:\Users\Ergun\Documents\Visual Studio 2012\Projects\File_organization\coalesced_hash\coalesced_hash\coalesced_hash.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D "WIN32" /D NDEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Main.c
+         Main.c
+     1>Main.c(11): error C2143: syntax error : missing ';' before 'type'
+     1>Main.c(11): error C2143: syntax error : missing ')' before 'type'
+     1>Main.c(11): warning C4552: '<' : operator has no effect; expected operator with side-effect
+     1>Main.c(11): error C2059: syntax error : ')'
+     1>Main.c(12): error C2143: syntax error : missing ';' before '{'
+     1>Main.c(13): warning C4013: 'hash' undefined; assuming extern returning int
+     1>Main.c(14): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>Main.c(18): error C2143: syntax error : missing ';' before 'type'
+     1>Main.c(18): error C2143: syntax error : missing ')' before 'type'
+     1>Main.c(18): warning C4552: '>' : operator has no effect; expected operator with side-effect
+     1>Main.c(18): error C2059: syntax error : ')'
+     1>Main.c(19): error C2143: syntax error : missing ';' before '{'
+     1>Main.c(20): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>Done Building Project "C:\Users\Ergun\Documents\Visual Studio 2012\Projects\File_organization\coalesced_hash\coalesced_hash\coalesced_hash.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

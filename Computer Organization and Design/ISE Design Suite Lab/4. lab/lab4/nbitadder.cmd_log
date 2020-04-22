@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/nbitadder.xst" -ofn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/nbitadder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 "nbitadder.ngc" nbitadder.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o nbitadder_map.ncd nbitadder.ngd nbitadder.pcf 
+par -w -intstyle ise -ol high -t 1 nbitadder_map.ncd nbitadder.ncd nbitadder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml nbitadder.twx nbitadder.ncd -o nbitadder.twr nbitadder.pcf 
+xst -intstyle ise -ifn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/nbitadder.xst" -ofn "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/nbitadder.syr" 

@@ -1,0 +1,14 @@
+V3 6
+FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/3. lab/lab3/lab3.vhd" 2017/01/06.04:01:06 P.20131013
+EN work/flipflop 1483664469 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/3. lab/lab3/lab3.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflop/Behavior 1483664470 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/3. lab/lab3/lab3.vhd" \
+      EN work/flipflop 1483664469
+EN work/devre 1483664471 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/3. lab/lab3/lab3.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/devre/STRUCTURAL 1483664472 \
+      FL "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/3. lab/lab3/lab3.vhd" \
+      EN work/devre 1483664471 CP flipflop

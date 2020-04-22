@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lojikprojesi.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="lojikprojesi.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="lojikprojesi.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="lojikprojesi.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="lojikprojesi.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="lojikprojesi.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="lojikprojesi.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="lojikprojesi.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="lojikprojesi.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="lojikprojesi.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="lojikprojesi.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lojikprojesi.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="lojikprojesi.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="lojikprojesi.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="lojikprojesi.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="lojikprojesi.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="lojikprojesi.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="lojikprojesi.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="lojikprojesi.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="lojikprojesi.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lojikprojesi_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="lojikprojesi_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="lojikprojesi_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="lojikprojesi_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="lojikprojesi_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="lojikprojesi_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="lojikprojesi_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="lojikprojesi_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="lojikprojesi_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lojikprojesi_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lojikprojesi_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="lojikprojesi_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="lojikprojesi_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lojikprojesi_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="lojikprojesi_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="lojikprojesi_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="lojikprojesi_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lojikprojesi_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="lojikprojesi_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1482126216" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1482126216">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482126216" xil_pn:in_ck="-7847144365994741755" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1482126216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="lojikprojesi.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1482126216" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7086312756667840147" xil_pn:start_ts="1482126216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482126216" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5831501442843244062" xil_pn:start_ts="1482126216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482126216" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9076697959593887622" xil_pn:start_ts="1482126216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482126216" xil_pn:in_ck="-7847144365994741755" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1482126216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="lojikprojesi.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1482126221" xil_pn:in_ck="-7847144365994741755" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8075469978793406307" xil_pn:start_ts="1482126216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="lojikprojesi_beh.prj"/>
+      <outfile xil_pn:name="lojikprojesi_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1482146627" xil_pn:in_ck="6022482644405111428" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8146510832914878166" xil_pn:start_ts="1482146627">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="lojikprojesi_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124943" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1482124943">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124943" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8357089661015707486" xil_pn:start_ts="1482124943">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124943" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-9076697959593887622" xil_pn:start_ts="1482124943">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124943" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1482124943">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124943" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7086312756667840147" xil_pn:start_ts="1482124943">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124943" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4713781073406069779" xil_pn:start_ts="1482124943">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124943" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5758586821966946244" xil_pn:start_ts="1482124943">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124978" xil_pn:in_ck="-7847144365994741755" xil_pn:name="TRANEXT_xstsynthesize_spartan3adsp" xil_pn:prop_ck="-2508345246888699764" xil_pn:start_ts="1482124970">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="lojikprojesi.lso"/>
+      <outfile xil_pn:name="lojikprojesi.ngc"/>
+      <outfile xil_pn:name="lojikprojesi.ngr"/>
+      <outfile xil_pn:name="lojikprojesi.prj"/>
+      <outfile xil_pn:name="lojikprojesi.stx"/>
+      <outfile xil_pn:name="lojikprojesi.syr"/>
+      <outfile xil_pn:name="lojikprojesi.xst"/>
+      <outfile xil_pn:name="lojikprojesi_vhdl.prj"/>
+      <outfile xil_pn:name="lojikprojesi_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124950" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5200257455341221630" xil_pn:start_ts="1482124950">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124986" xil_pn:in_ck="-7847144365994750501" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7583938922793967849" xil_pn:start_ts="1482124978">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="lojikprojesi.bld"/>
+      <outfile xil_pn:name="lojikprojesi.ngd"/>
+      <outfile xil_pn:name="lojikprojesi_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1482124996" xil_pn:in_ck="-7847144365994750500" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="1306392966133076781" xil_pn:start_ts="1482124986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="lojikprojesi.pcf"/>
+      <outfile xil_pn:name="lojikprojesi_map.map"/>
+      <outfile xil_pn:name="lojikprojesi_map.mrp"/>
+      <outfile xil_pn:name="lojikprojesi_map.ncd"/>
+      <outfile xil_pn:name="lojikprojesi_map.ngm"/>
+      <outfile xil_pn:name="lojikprojesi_map.xrpt"/>
+      <outfile xil_pn:name="lojikprojesi_summary.xml"/>
+      <outfile xil_pn:name="lojikprojesi_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1482125027" xil_pn:in_ck="-6056381484276831499" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1003115200023085498" xil_pn:start_ts="1482124996">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="lojikprojesi.ncd"/>
+      <outfile xil_pn:name="lojikprojesi.pad"/>
+      <outfile xil_pn:name="lojikprojesi.par"/>
+      <outfile xil_pn:name="lojikprojesi.ptwx"/>
+      <outfile xil_pn:name="lojikprojesi.unroutes"/>
+      <outfile xil_pn:name="lojikprojesi.xpi"/>
+      <outfile xil_pn:name="lojikprojesi_pad.csv"/>
+      <outfile xil_pn:name="lojikprojesi_pad.txt"/>
+      <outfile xil_pn:name="lojikprojesi_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1482125027" xil_pn:in_ck="-7847144365994750632" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1482125021">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="lojikprojesi.twr"/>
+      <outfile xil_pn:name="lojikprojesi.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,35 @@
+Command line:
+   lojikprojesi_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63897
+
+Mon Dec 19 14:23:48 2016
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.99 Meg
+
+ Total Signals          : 9
+ Total Nets             : 9
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 369
+Total Line Count : 3
+Total Line Count : 3
+Total Line Count : 3
+Total Line Count : 3
+Total Line Count : 3
+Total Line Count : 3
+Total Line Count : 3
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 841.99 Meg
+
+Mon Dec 19 14:43:02 2016
+

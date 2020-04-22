@@ -1,0 +1,6 @@
+Question: Which resistance has the highest current on it. Which resistance has the highest 
+ voltage on it.
+
+Solution: To find resistance with highest current you use current divider. To find resitance
+ with highest voltage, we use voltage divider(parallel resistance have same voltage difference
+ at their ends).

@@ -1,0 +1,11 @@
+Circuit: * D:\Computer Engineering\z- Other\School, Internships\2. Year\Term 1\Devreler ve Sistemler\4- Electric Programs\impossible circuits\serialCurrent\serialCurrent.asc
+
+WARNING: Node N001 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Singular matrix:  Check node n001
+   Iteration No. 1
+Fatal Error: Singular matrix:  check node n001
+   Iteration No. 1
+
+This circuit has floating nodes.

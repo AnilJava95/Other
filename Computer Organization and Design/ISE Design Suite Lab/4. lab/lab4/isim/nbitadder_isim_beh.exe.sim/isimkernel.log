@@ -1,0 +1,30 @@
+Command line:
+   nbitadder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51417
+
+Sat Jan 14 17:05:23 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 842.527 Meg
+
+ Total Signals          : 32
+ Total Nets             : 21
+ Total Signal Drivers   : 12
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 12
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 381
+Total Line Count : 12
+Total Line Count : 12
+
+ Total Simulation Time: 0.21875 sec
+
+ Current Memory Usage: 842.527 Meg
+
+Sat Jan 14 17:20:08 2017
+

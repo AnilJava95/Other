@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/nbitadder_isim_beh.exe" -prj "D:/- Computer Engineering/- Other Subjects/Other stuff/School/3. Yil/1. Donem/Bot lab - VHSIC HDL/4- VHDL Programs/lablar/4. lab/lab4/nbitadder_beh.prj" "work.nbitadder" 

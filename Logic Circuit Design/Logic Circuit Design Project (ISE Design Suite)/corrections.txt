@@ -1,0 +1,2 @@
+first version of the project included pictures and tables that mixed up 3. and 4. stacks. 
+ tables have been fixed but pictures are slightly faulty.

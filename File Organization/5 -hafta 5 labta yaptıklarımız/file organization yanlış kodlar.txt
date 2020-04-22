@@ -1,0 +1,110 @@
+
+baþtaki fonksiyonlar yanlýþ, linear'da loc-11 olcakki 12 den 1 e gelsin.
+
+
+///LINEAR QUATIENT
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#define length 7
+
+int main(int argc, char *argv[])
+{
+	int memory[11] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+	int data[length] = { 27, 18, 29, 28, 39, 13, 16 };
+	int i, b;
+	int loc;
+
+	for (i = 0; i < length; i++)
+	{
+		loc = hash(data[i]);
+		//printf("%d",loc);
+		if (memory[loc] == 0)
+			memory[loc] = data[i];
+		else
+		{
+			while (memory[loc] != 0)
+			{
+				loc = loc + quotient(data[i]);
+				//printf("%d",loc);
+				if (loc>10)
+					loc = loc - 10;
+			}
+			memory[loc] = data[i];
+
+		}
+	}
+
+	printf("Linear Quotient ile memory'e sayilari yerlestirme:");
+
+	for (b = 0; b < 11; b++)
+	{
+		printf("\n-%d-", memory[b]);
+	}
+
+	system("PAUSE");
+	return 0;
+}
+
+int hash(int n)
+{
+	int location;
+	location = n % 11;
+}
+
+int quotient(int n)
+{
+	int increment;
+	increment = n / 11;
+}
+
+
+
+
+
+
+
+///USE OF BUCKETS
+
+#include <stdio.h>
+#include <stdlib.h>
+#define length 7
+
+int main(int argc, char *argv[])
+{
+	int memory[11][2] = { { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 }, { 0, 0 } };
+	int data[length] = { 27, 18, 29, 28, 39, 13, 16 };
+	int i, b;
+	int loc;
+
+	for (i = 0; i < length; i++)
+	{
+
+		loc = hash(data[i]);
+		//printf("%d",loc);
+		if (memory[loc][0] == 0)
+			memory[loc][0] = data[i];
+		else
+		{
+			memory[loc][1] = data[i];
+		}
+
+	}
+
+	for (b = 0; b < 11; b++)
+	{
+		printf("-%d-", memory[b][0]);
+		printf("-%d-\n", memory[b][1]);
+	}
+	system("PAUSE");
+	return 0;
+}
+
+int hash(int n)
+{
+	int location;
+	location = n % 11;
+}
+
+
