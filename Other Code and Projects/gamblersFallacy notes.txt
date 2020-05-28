@@ -1,0 +1,23 @@
+The probability of encountering halves the further down you go.
+
+Win rate for houseWinRowCounter >= 5: ~50.58%, Encounter probability: 3.11%
+
+Win rate for houseWinRowCounter >= 6: ~51.32%, Encounter probability: 1.54%
+
+Win rate for houseWinRowCounter >= 7: ~52.25%, Encounter probability: 0.75%
+
+Win rate for houseWinRowCounter >= 8: ~52.03%, Encounter probability: 0.36%
+
+Win rate for houseWinRowCounter >= 9: ~51.58%, Encounter probability: 0.17%
+
+Win rate for houseWinRowCounter >= 10: ~50.46%, Encounter probability: 0.08%
+
+Win rate for houseWinRowCounter >= 11: ~51.82%, Encounter probability: 0.04%
+
+Win rate for houseWinRowCounter >= 12: ~50.00%, Encounter probability: 0.02%
+
+Win rate for houseWinRowCounter >= 13: ~61.54%, Encounter probability: 0.01%
+
+Win rate for houseWinRowCounter >= 14: ~60.00%, Encounter probability: 0.004%
+
+Win rate for houseWinRowCounter >= 15: 100.00%, Encounter probability: 0.002%
