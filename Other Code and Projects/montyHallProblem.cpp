@@ -1,5 +1,5 @@
 /*
- * Author's name and email: Michael
+ * Author's name and email: Michael, michaeljava95@gmail.com
  * Program description: A program about the monthy hall problem. When we
  *  dont switch the door, we get 33.3% win rate. When we switch we have a
  *  66.6% win rate.
@@ -38,9 +38,9 @@ int main()
 		// Player chooses a door index.
 		int playerChoice = rand() % 3;
 
-		// Host opens one of the doors that you didnt pick
+		// Host opens one of the doors that player didnt pick
 		//  which doesnt contain the money. Host also decides 
-		//  which door you will switch to.
+		//  which door player will switch to.
 		for (int i = 0; i < 3; i++)
 		{
 			if (i == playerChoice)
@@ -54,21 +54,21 @@ int main()
 				doorToSwitchTo = i;
 		}
 
-		/*
+		
 		// Player doesnt switch.
 		if (playerChoice == indexToMoney)
 			winCount++;
 		else
 			loseCount++;
-		*/
+		
 
-
+		/*
 		// Player switches
 		if (doorToSwitchTo == indexToMoney)
 			winCount++;
 		else
 			loseCount++;
-
+		*/
 
 		//doors[indexToMoney] = 0; // reset the money
 	}
@@ -77,5 +77,4 @@ int main()
 		<< " Win count: " << winCount
 		<< " Lose count: " << loseCount
 		<< " Win rate: " << 1.0 * winCount / roundCount * 100 << "%\n";
-
 }
