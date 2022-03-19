@@ -1,0 +1,24 @@
+import numpy as np
+import pandas as pd
+
+data = pd.read_csv('../../CS612-Summer-2020/IN/AnilErturk/Module5/sales_data_sample.csv', encoding = 'latin')
+data
+
+data[data['COUNTRY'] == 'USA']
+
+data.dropna()
+
+data.drop_duplicates(['ORDERNUMBER'], keep='last')
+
+data[data['PRODUCTLINE'] == 'Motorcycles']
+
+qty = data['QUANTITYORDERED']
+qty
+
+pd.cut(qty, 4)
+
+pd.value_counts))
+
+pd.qcut(qty, 4)
+
+pd.value_counts(qty)

@@ -1,0 +1,85 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+import folium
+from folium.plugins import HeatMap
+from heatmap import corrplot
+
+
+df = pd.read_csv("kc_house_data.csv", parse_dates=['date'])
+df.head(10)
+
+
+df.info()
+
+
+df['age'] = pd.DatetimeIndex(df['date']).year - df['yr_built']
+df['renovated'] = df['yr_renovated'].apply(lambda x: 0 if x == 0 else 1)
+
+df.drop(['zipcode','id','yr_built','yr_renovated','date'],axis = 1, inplace= True)
+
+
+
+num_col = ['price', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'view', 
+           'condition', 'grade', 'sqft_above','sqft_basement', 'sqft_living15', 'sqft_lot15', 'age']
+
+
+plt.figure(figsize=(8, 8))
+corrplot(df.corr())
+
+
+#Filter out features
+df.drop(['sqft_living15','sqft_lot15','age','sqft_above'],axis = 1, inplace= True)
+
+
+fig, axes = plt.subplots(2,1,figsize = (10,30))
+sns.set(font_scale=1.5)
+sns.boxplot(x='floors', y='price',data = df,ax=axes[0])
+sns.boxplot(x='bedrooms', y='price',data = df, ax=axes[1])
+
+fig, ax = plt.subplots(1,1, figsize = (20,10))
+sns.boxplot(x='bathrooms', y='price',data = df, ax=ax)
+
+
+fig, axes = plt.subplots(2,1,figsize=(10,20))
+sns.set(font_scale=1.5)
+sns.violinplot(x=df['renovated'],y=df['price'],ax=axes[0])
+sns.violinplot(x=df['waterfront'],y=df['price'],ax=axes[1])
+
+fig, ax = plt.subplots(1,1,figsize=(20,10))
+sns.violinplot(x=df['view'],y=df['price'],ax=ax)
+
+
+plt.figure(figsize=(30,15))
+sns.violinplot(x=df['grade'], y=df['price'])
+sns.set(font_scale=3)
+
+
+maxpr=df.loc[df['price'].idxmax()]
+
+# define a function to draw a basemap easily
+def generateBaseMap(default_location=[47.5112, -122.257], default_zoom_start=9.4):
+    base_map = folium.Map(location=default_location, control_scale=True, zoom_start=default_zoom_start)
+    return base_map
+
+df_copy = df.copy()
+# select a zipcode for the heatmap
+#set(df['zipcode'])
+#df_copy = df[df['zipcode']==98001].copy()
+df_copy['count'] = 1
+basemap = generateBaseMap()
+# add carton position map
+folium.TileLayer('cartodbpositron').add_to(basemap)
+s=folium.FeatureGroup(name='icon').add_to(basemap)
+# add a marker for the house which has the highest price
+folium.Marker([maxpr['lat'], maxpr['long']],popup='Highest Price: $'+str(format(maxpr['price'],'.0f')),
+              icon=folium.Icon(color='green')).add_to(s)
+# add heatmap
+HeatMap(data=df_copy[['lat','long','count']].groupby(['lat','long']).sum().reset_index().values.tolist(),
+        radius=8,max_zoom=13,name='Heat Map').add_to(basemap)
+folium.LayerControl(collapsed=False).add_to(basemap)
+basemap
+
+

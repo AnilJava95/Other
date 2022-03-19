@@ -1,0 +1,21 @@
+import numpy as np
+
+
+dt = np.array([1, 2])
+print(dt.dtype)
+
+dt = np.array([1.0, 2.0])
+print(dt.dtype)
+
+dt = np.array([1, 2], dtype=np.float64)
+print(dt)
+print(dt.dtype)
+
+
+student = np.dtype([('name', np.unicode_, 10), ('age', np.int64), ('marks', np.float64)])
+print(student)
+
+
+ms_student = np.array([('student1', 20, 100), ('student2withlongname', 22, 89)], dtype=student)
+print (ms_student)
+print (ms_student.dtype)

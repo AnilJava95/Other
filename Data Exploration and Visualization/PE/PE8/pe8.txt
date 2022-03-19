@@ -1,0 +1,27 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import math
+
+heights = pd.read_csv('heights.csv', encoding = 'latin')
+heights
+
+plt.scatter(heights.Husband, heights.Wife)
+plt.xlabel("husband")
+plt.ylabel("wife")
+plt.title("Scatter Plot of Heights")
+plt.plot(heights.Husband, heights.Wife)
+plt.show()
+
+x = np.arange(-5, 5, 1)
+x
+
+plt.plot(-(1/3)*x+1.5, color = 'green', linestyle = 'dotted', label = 'func1')
+plt.legend(loc='upper left')
+
+plt.plot(0.02*x*(x-1)*(x+1)+1, color = 'yellow', linestyle = 'dashed', label = 'func2')
+plt.legend(loc='upper left')
+
+plt.plot(2*math.exp(-x^2), color = 'red', linestyle = 'solid', label = 'func2')
+plt.legend(loc='upper left')
+

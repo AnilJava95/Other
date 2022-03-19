@@ -1,0 +1,47 @@
+import pandas as pd
+
+
+sales = pd.read_csv('sales_data_sample.csv', encoding='latin')
+
+
+sales
+
+
+sales.columns
+
+
+data = pd.DataFrame(sales.loc[:50,['ORDERNUMBER', 'CUSTOMERNAME', 'ADDRESSLINE1', 'POSTALCODE', 'STATUS']])
+
+data.to_csv('new_sales.csv')
+
+
+users = pd.read_json('users.json')
+
+
+users
+
+
+import numpy as np
+
+
+dfj = pd.DataFrame(np.random.randn(5, 2), columns=['record1', 'record2'])
+dfj.to_json('new_users.json', orient='columns')
+
+
+import requests
+
+
+url = 'http://jsonplaceholder.typicode.com/users'
+res = requests.get(url)
+res
+
+
+all_users = res.json()
+all_users[0]
+
+
+users = pd.DataFrame(all_users)
+users
+
+
+users.to_json('api_response.json', orient='records')

@@ -1,0 +1,36 @@
+﻿@page "/todo"
+
+<h3>Todo</h3>
+
+<p>Number of todo items: @todos.Count(todo => !todo.isDone)</p>
+
+<ul>
+    @foreach (var todo in todos)
+    {
+        // Dynamically render the title of each list item
+        <li>@todo.title</li>
+    }
+</ul>
+
+<input placeholder = "Something todo" @bind = "newTodo"/>
+
+<button @onclick="addTodo"> Add todo </button>
+
+@code {
+    // A generic collection called List
+    private IList<TodoItem> todos = new List<TodoItem>();
+    // temporary variable that will be added to the list
+    private string newTodo;
+    // the method that adds an item to the list
+    private void addTodo()
+    {
+        // check if the new entry is not empty space
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            // add the new entry to the list
+            todos.Add(new TodoItem { title = newTodo });
+            // reset the temporary variable
+            newTodo = string.Empty;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+import pandas as pd
+import numpy as np
+
+frame = pd.DataFrame(np.arange(12).reshape((4,3)), index=[['a','a','b','b'],[1,2,1,2]], columns = [['Ohio', 'Ohio', 'Colorado'], ['Green', 'Red', 'Green']])
+frame
+
+frame1 = frame.stack().stack()
+frame2 = frame.unstack().unstack()
+
+frame1
+
+frame2
+
+frame2 = frame2.swaplevel(0, 3)
+frame2
+
+left = pd.DataFrame({'id': [1, 2, 3, 4, 5], 'Name1': ['Alex', 'Amy', 'Allen', 'Alice', 'Ayoung'], 'subject_id': ['sub1', 'sub2', 'sub4', 'sub6', 'sub5']})
+left
+
+right = pd.DataFrame({'id': [1, 2, 3, 4, 5], 'Name2': ['Billy', 'Brian', 'Bran', 'Bryce', 'Betty'], 'subject_id': ['sub2', 'sub4', 'sub3', 'sub5', 'sub6']})
+right
+
+x = pd.merge(left, right, on='subject_id')
+x
+
+x.isnull()
+
+x.any()

@@ -1,0 +1,19 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv('toy_dataset1.csv', encoding = 'latin')
+df
+
+sns.scatterplot(x = "Age", y = "Income", data = df)
+plt.show()
+
+ax = df.Income.plot.kde()
+
+test['age_group'] = pd.cut(df.Age, bins=[0, 30, 45, 60, 75], labels=['1', '2', '3', '4'])
+test
+
+test = sns.catplot(x = "Gender", y = "Income", hue = "Illness", data = df)
+plt.show()
+
