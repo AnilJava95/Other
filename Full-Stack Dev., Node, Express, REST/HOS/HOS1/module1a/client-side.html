@@ -1,0 +1,29 @@
+<IDOCTYPE htmL>
+    <html>
+
+    <head>
+        <title>Client-Side JS</title>
+    </head>
+
+    <body>
+
+        <h2>Built in function</h2>
+
+        <button type="button" onclick="document.
+           getElementById('demo').innerHTML = Date()">
+           Click me to display Date and Time.</button>
+        <p id="demo"></p>
+		
+		<h2>User-Defined Function</h2>
+		<p id="demo2"></p>
+		
+		<script>
+		document.getElementById("demo2").innerHTML = myFunction(2.5, 3);
+		
+		function myFunction(p1, p2) { 
+			return p1 * p2;
+		}
+		</script>
+    </body>
+
+    </html>
